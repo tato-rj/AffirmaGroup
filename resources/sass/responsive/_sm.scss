@@ -1,0 +1,21 @@
+////////////////////////////////////////
+// SECOND BREAKPOINT: less than 768px //
+////////////////////////////////////////
+@include media-breakpoint-down(sm) {
+	#home {
+		h1 {font-size: 1.75rem !important}
+		h3 {font-size: 1.5rem !important}
+	}
+
+	#highlight .img-container img {
+		transform: translateX(0px) !important;
+		transform: translateY(-20px) !important
+	}
+}
+
+/////////////////////////////
+// Between 768px and 992px //
+/////////////////////////////
+@include media-breakpoint-between(sm, md) {
+	//
+}

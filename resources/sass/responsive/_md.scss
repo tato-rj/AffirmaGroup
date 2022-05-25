@@ -1,0 +1,33 @@
+////////////////////////////////////////////////
+// FIRST BREAKPOINT: between 992px and 1200px //
+////////////////////////////////////////////////
+@include media-breakpoint-between(md, lg) {
+	//
+}
+
+/////////////////////////////////////////
+// ALL UNDER TABLESTS: less than 992px //
+/////////////////////////////////////////
+// REPEAT FIRST BREAKPOINT IF IT IS TO PERSIST
+
+@include media-breakpoint-down(md) {
+	.home-lead {
+		height: 90vh !important;
+	}
+
+	.navbar-nav {
+
+		padding-top: 1.5rem !important;
+		padding-bottom: 1.5rem !important;
+	}
+
+	.navbar-nav .nav-item {
+		padding-top: .75rem;
+		padding-bottom: .75rem;
+	}
+
+	.navbar-nav .nav-item:last-of-type {
+		padding-top: 1.25rem !important;
+		padding-bottom: .75rem;
+	}
+}

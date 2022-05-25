@@ -1,0 +1,130 @@
+.btn-pill-left {
+	border-top-left-radius: 50rem !important;
+	border-bottom-left-radius: 50rem !important;
+}
+
+.btn-pill-right {
+	border-top-right-radius: 50rem !important;
+	border-bottom-right-radius: 50rem !important;
+}
+
+.btn-pill {
+	border-radius: $brand-corners !important;
+}
+
+.btn-primary {
+	color: white !important;
+	background-color: $brand-secondary;
+	border-color: $brand-secondary;
+	border-radius: $brand-corners !important;
+
+	&:hover {
+		color: white !important;
+		background-color: lighten($brand-secondary, 8%);
+		border-color: lighten($brand-secondary, 8%);
+	}
+
+	&:active {
+		background-color: lighten($brand-secondary, 10%) !important;
+		border-color: lighten($brand-secondary, 10%) !important;
+	}
+
+	&:focus {
+		background-color: lighten($brand-secondary, 10%) !important;
+		border-color: lighten($brand-secondary, 10%) !important;
+	}
+
+	&:disabled {
+		background-color: lighten($brand-secondary, 16%) !important;
+		border-color: lighten($brand-secondary, 16%) !important;
+	}
+}
+
+.btn-outline-primary {
+	color: $brand-primary !important;
+	background-color: transparent;
+	border-color: $brand-primary;
+
+	&:hover {
+		color: white !important;
+		background-color: $brand-primary;
+		border-color: $brand-primary;
+	}
+
+	&:active {
+		color: white !important;
+		background-color: darken($brand-primary, 6%) !important;
+		border-color: darken($brand-primary, 6%) !important;
+	}
+
+	&:focus {
+		color: white !important;
+		background-color: darken($brand-primary, 6%) !important;
+		border-color: darken($brand-primary, 6%) !important;
+	}
+
+	&:disabled {
+		color: white !important;
+		background-color: lighten($brand-primary, 6%) !important;
+		border-color: lighten($brand-primary, 6%) !important;
+	}
+}
+
+.btn-white {
+	color: $brand-primary !important;
+	background-color: white;
+	border-color: white;
+	// border-radius: $brand-corners !important;
+
+	&:hover {
+		color: lighten($brand-primary, 8%) !important;
+		background-color: white;
+		border-color: white;
+	}
+
+	&:active {
+		background-color: white !important;
+		border-color: white !important;
+	}
+
+	&:focus {
+		background-color: white !important;
+		border-color: white !important;
+	}
+
+	&:disabled {
+		background-color: white !important;
+		border-color: white !important;
+	}
+}
+
+.btn-outline-white {
+	color: white !important;
+	background-color: transparent;
+	border-color: white;
+	// border-radius: $brand-corners !important;
+
+	&:hover {
+		color: $brand-primary !important;
+		background-color: white;
+		border-color: white;
+	}
+
+	&:active {
+		color: $brand-primary !important;
+		background-color: white !important;
+		border-color: white !important;
+	}
+
+	&:focus {
+		color: $brand-primary !important;
+		background-color: white !important;
+		border-color: white !important;
+	}
+
+	&:disabled {
+		color: $brand-primary !important;
+		background-color: white !important;
+		border-color: white !important;
+	}
+}

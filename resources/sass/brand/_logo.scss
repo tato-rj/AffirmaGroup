@@ -1,0 +1,19 @@
+.logo-container {
+	@extend .d-flex, .align-items-end;
+}
+
+.logo-container {
+	div.dot {
+		@extend .bg-secondary, .rounded-pill;
+		width: 14.4px; 
+		height: 14.4px; 
+		margin-bottom: 0.72rem;
+		margin-left: 0.42rem;
+	}
+}
+
+.logo-light {
+	.font-logo {
+		@extend .text-white;
+	}
+}

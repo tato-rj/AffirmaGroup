@@ -1,0 +1,11 @@
+.btn:hover {
+	i.move-right {
+		transform: translateX(4px);
+	}
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 300ms;
+  --animate-delay: 0.9s;
+}

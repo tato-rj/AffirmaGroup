@@ -1,0 +1,23 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min";
+@import "~animate.css/animate.min";
+
+@import "responsive/sm";
+@import "responsive/md";
+@import "responsive/lg";
+@import "responsive/xl";
+
+@import "variables";
+@import "brand/buttons";
+@import "brand/backgrounds";
+@import "brand/fonts";
+@import "brand/logo";
+@import "components/containers";
+@import "components/animations";
+@import "components/navbar";
+@import "components/alerts";
+@import "components/form";
+
+button {outline: none!important};
+
+.modal-content {border-radius: 0!important};
