@@ -19,6 +19,5 @@ mix.js('resources/js/app.js', 'public/js')
       'resources/sass/libraries/hamburgers.min.css'
       ], 'public/css/app.css')
     .copyDirectory('resources/images', 'public/images')
-    .copyDirectory('resources/portfolio', 'public/portfolio')
     .copyDirectory('resources/videos', 'public/videos')
     .version();
