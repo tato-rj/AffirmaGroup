@@ -4,7 +4,7 @@
             <div class="col-lg-8 col-md-6 col-12">
                 <div class="" style="max-width: 600px;">
                     @include('components.logo', ['theme' => 'dark'])
-                    <p class="text-muted">We are a leading recruitment, contract staffing, and workforce solutions firm throughout the US, specialized in the Greater New York City area. ArcNet recruiters understand your needs, your industry, and your language.</p>
+                    <p class="text-muted">We are a leading recruitment, contract staffing, and workforce solutions firm throughout the US, specialized in the Greater New York City area. {{config('app.name')}} recruiters understand your needs, your industry, and your language.</p>
                 </div>
             </div>
             <div class="col-lg-2 col-md-3 col-6 pt-3">

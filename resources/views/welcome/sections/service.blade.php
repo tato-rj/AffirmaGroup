@@ -14,7 +14,7 @@
 			<div class="col-lg-6 col-md-6 col-12 box">
 				<div class="border" data-aos="fade-up" data-aos-delay="200">
 					<h5 class="accent">Opportunities</h5>
-					<p>ArcNet provides an unparalleled level of personalized recruiting services.  Our expertise and commitment to quality make us a resource to candidates throughout their career development and growth.</p>
+					<p>{{config('app.name')}} provides an unparalleled level of personalized recruiting services.  Our expertise and commitment to quality make us a resource to candidates throughout their career development and growth.</p>
 					@button(['url' => route('opportunities'),'style' => 'primary', 'label' => 'Learn more'])
 				</div>
 			</div>

@@ -7,7 +7,7 @@
 
 		<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#why-accordion">
 			<p class="card-body m-0">
-				ArcNet Innovation specializes in the construction industry. Our direct experience provides a unique perspective and approach to difficult talent needs and career advancement challenges within the construction industry. This means our construction recruiters will understand your needs, your industry, and your language – saving you time and reducing frustration. 
+				{{config('app.name')}} specializes in the construction industry. Our direct experience provides a unique perspective and approach to difficult talent needs and career advancement challenges within the construction industry. This means our construction recruiters will understand your needs, your industry, and your language – saving you time and reducing frustration. 
 			</p>
 		</div>
 	</div>
@@ -19,7 +19,7 @@
 
 		<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#why-accordion">
 			<p class="card-body m-0">
-				Our personal experience in the construction industry makes ArcNet the perfect recruiting option. We screen each candidate with targeted questions allowing us to find the perfect match for each career opportunity.
+				Our personal experience in the construction industry makes {{config('app.name')}} the perfect recruiting option. We screen each candidate with targeted questions allowing us to find the perfect match for each career opportunity.
 			</p>
 		</div>
 	</div>

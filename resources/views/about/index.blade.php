@@ -25,7 +25,7 @@
                     </div>
                     <div class="mb-5">
                         <h5 class="accent">SUCCESSFULL TRACK RECORD</h5>
-                        <p>Our personal experience in the multiple industries makes ArcNet the perfect recruiting option. We screen each candidate with targeted questions allowing us to find the perfect match for each career opportunity.</p>
+                        <p>Our personal experience in the multiple industries makes {{config('app.name')}} the perfect recruiting option. We screen each candidate with targeted questions allowing us to find the perfect match for each career opportunity.</p>
                     </div>
                     <div>
                         <h5 class="accent">DEMONSTRABLE RESULTS</h5>

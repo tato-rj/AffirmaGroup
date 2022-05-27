@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-8 col-12 mx-auto">
                     <div class="mb-5">
-                        <h4 class="text-muted mb-4">ArcNet Innovation provides its clients with a focused and refined process.</h4>
+                        <h4 class="text-muted mb-4">{{config('app.name')}} provides its clients with a focused and refined process.</h4>
 
                         <p>Our industry specialists work with you to best map out your needs so we can deliver a custom solution based on the business and key market trends. By taking the time to get to know your company’s unique culture and goals, we are able to develop the right hiring strategy to address your challenges and provide only the best professionals that fit your needs, fully vetting each candidate that walks through the door.</p>
                     </div>
