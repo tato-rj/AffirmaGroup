@@ -21,3 +21,5 @@ mix.js('resources/js/app.js', 'public/js')
     .copyDirectory('resources/images', 'public/images')
     .copyDirectory('resources/videos', 'public/videos')
     .version();
+
+
