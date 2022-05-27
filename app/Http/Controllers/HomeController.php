@@ -16,4 +16,9 @@ class HomeController extends Controller
     {
         return view('about.index');
     }
+
+    public function portfolio()
+    {
+        return response()->file(public_path('portfolio/dummy.pdf'));
+    }
 }

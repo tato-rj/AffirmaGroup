@@ -21,6 +21,8 @@ Route::get('industries', 'IndustryController@index')->name('industries');
 
 Route::get('about', 'HomeController@about')->name('about');
 
+Route::get('portfolio', 'HomeController@portfolio')->name('portfolio');
+
 Route::prefix('contact')->name('contact')->group(function() {
 
     Route::get('', 'ContactController@create');
