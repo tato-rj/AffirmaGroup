@@ -19,7 +19,7 @@ class HomeController extends Controller
 
     public function portfolio()
     {
-        $file = \Storage::disk('public')->path('portfolio/dummy.pdf');
+        $file = \Storage::disk('public')->path('portfolio/Portfolio Affirma Group.pdf');
 
         return response()->file($file);
     }
