@@ -19,6 +19,6 @@ class HomeController extends Controller
 
     public function portfolio()
     {
-        return response()->file(public_path('portfolio/dummy.pdf'));
+        return response()->file(public_path('images/portfolio/dummy.pdf'));
     }
 }
