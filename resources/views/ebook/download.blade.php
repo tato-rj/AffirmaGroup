@@ -44,7 +44,7 @@ p, .btn {
 @section('content')
 <section class="secondary-bg h-100vh">
     <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-center">
+        <div class="text-center px-4">
             <h1 class="text-green">@fa(['icon' => 'check-circle', 'mr' => 0])</h1>
             <h1 class="m-0">Thank you!</h1>
             <h3 class="mb-4">Your purchase was successful</h3>
