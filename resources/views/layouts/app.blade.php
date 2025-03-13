@@ -4,7 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        @isset($raw)
+        <title>{{$name}}</title>
+        @else
         <title>{{config('app.name')}} | {{$name ?? 'Grow your business with us'}}</title>
+        @endisset
 
         <link rel="apple-touch-icon" sizes="57x57" href="{{asset('favicon/apple-icon-57x57.png')}}">
         <link rel="apple-touch-icon" sizes="60x60" href="{{asset('favicon/apple-icon-60x60.png')}}">
@@ -61,11 +65,15 @@
         @stack('header')
     </head>
     <body>
+        @unless(isset($raw))
         @include('layouts.header')
+        @endunless
         
         @yield('content')
 
+        @unless(isset($raw))
         @include('layouts.footer')
+        @endunless
 
         @if($message = session('success'))
         @alert([

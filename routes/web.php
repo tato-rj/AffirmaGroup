@@ -23,6 +23,12 @@ Route::get('about', 'HomeController@about')->name('about');
 
 Route::get('portfolio', 'HomeController@portfolio')->name('portfolio');
 
+Route::get('ebook', 'HomeController@ebook');
+
+Route::get('ebook/purchase', 'HomeController@ebookPurchase')->name('ebook.purchase');
+
+Route::get('ebook/download', 'HomeController@ebookDownload')->name('ebook.download');
+
 Route::prefix('contact')->name('contact')->group(function() {
 
     Route::get('', 'ContactController@create');

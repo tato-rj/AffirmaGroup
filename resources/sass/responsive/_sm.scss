@@ -11,6 +11,14 @@
 		transform: translateX(0px) !important;
 		transform: translateY(-20px) !important
 	}
+
+	.sm-absolute {
+		position: unset !important;
+	}
+
+	.sm-center {
+		text-align: center !important;
+	}
 }
 
 /////////////////////////////
