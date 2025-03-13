@@ -150,7 +150,7 @@ p, .btn {
 
     <div id="floating-buybtn" style="display: none">
         <div class="position-fixed text-center" style="bottom: 40px; left: 50%; transform: translateX(-50%);">
-            <p class="small text-red mb-2">60% DISCOUNT ON EARLY PURCHASE</p>
+            <p class="small text-red mb-2" style="white-space: nowrap;">60% DISCOUNT ON EARLY PURCHASE</p>
             @include('ebook.buybtn')
         </div>
     </div>
