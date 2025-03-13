@@ -1,6 +1,13 @@
 @extends('layouts.app', ['name' => 'eBook - Choosing a High School in NYC', 'raw' => true])
 
 @push('header')
+<meta property="og:title" content="eBook - Choosing a High School in NYC">
+<meta property="og:description" content="Your ultimate guide to finding the best high school in the five boroughs of New York City.">
+<meta property="og:image" content="{{ asset('images/ebook/cover.jpg') }}">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Benne&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
