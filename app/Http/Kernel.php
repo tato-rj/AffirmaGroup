@@ -64,5 +64,6 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'honeypot' => \App\Http\Middleware\Honeypot::class,
+        'verify.purchase' => \App\Http\Middleware\VerifyEbookPurchase::class,
     ];
 }

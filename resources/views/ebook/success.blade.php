@@ -50,8 +50,8 @@ p, .btn {
             <h3 class="mb-4">Your purchase was successful</h3>
             <p>Please choose below which format you prefer:</p>
             <div class="d-flex justify-content-center">
-                <div><a href="{{route('ebook.download', ['successful'])}}" class="btn btn-outline-primary mx-2">PDF</a></div>
-                <div><a href="{{route('ebook.download', ['successful'])}}" class="btn btn-outline-primary mx-2">EPUB</a></div>
+                <div><a href="{{route('ebook.download')}}" class="btn btn-outline-primary mx-2">PDF</a></div>
+                <div><a href="{{route('ebook.download')}}" class="btn btn-outline-primary mx-2">EPUB</a></div>
             </div>
         </div>
     </div>

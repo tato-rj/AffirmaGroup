@@ -23,11 +23,17 @@ Route::get('about', 'HomeController@about')->name('about');
 
 Route::get('portfolio', 'HomeController@portfolio')->name('portfolio');
 
-Route::get('ebook', 'HomeController@ebook');
+Route::prefix('ebook')->name('ebook.')->group(function() {
 
-Route::get('ebook/purchase', 'HomeController@ebookPurchase')->name('ebook.purchase');
+    Route::get('', 'eBookController@index')->name('index');
 
-Route::get('ebook/download', 'HomeController@ebookDownload')->name('ebook.download');
+    Route::get('purchase', 'eBookController@purchase')->name('purchase');
+
+    Route::middleware('verify.purchase')->get('success', 'eBookController@success')->name('success');
+
+    Route::middleware('verify.purchase')->get('download', 'eBookController@download')->name('download');
+
+});
 
 Route::prefix('contact')->name('contact')->group(function() {
 

@@ -1,1 +1,1 @@
-<a href="{{route('ebook.purchase', ['successful'])}}" class="btn btn-primary btn-wide mb-2">@fa(['icon' => 'shopping-cart'])BUY EBOOK!</a>
+<a href="{{route('ebook.purchase')}}" class="btn btn-primary btn-wide mb-2">@fa(['icon' => 'shopping-cart'])BUY EBOOK!</a>
