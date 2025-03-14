@@ -23,7 +23,7 @@ Route::get('about', 'HomeController@about')->name('about');
 
 Route::get('portfolio', 'HomeController@portfolio')->name('portfolio');
 
-Route::prefix('ebook')->name('ebook.')->group(function() {
+Route::prefix('ebook/'.str_slug('Choosing a High School in NYC'))->name('ebook.')->group(function() {
 
     Route::get('', 'eBookController@index')->name('index');
 
