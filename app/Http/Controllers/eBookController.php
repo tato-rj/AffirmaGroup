@@ -16,7 +16,7 @@ class eBookController extends Controller
         $referer = $request->headers->get('referer');
 
         if (!$referer || !str_contains(parse_url($referer, PHP_URL_HOST), 'stripe.com'))
-            abort(403);
+            abort(403, 'Unauthorized access.');
 
         session(['ebook_purchased' => true]);
 
