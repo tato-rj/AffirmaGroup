@@ -30,7 +30,7 @@ class eBookController extends Controller
 
     public function download(Request $request)
     {
-        $filepath = public_path('images/ebook/ebook.'.$request->ext);
+        $filepath = public_path('images/ebook/choosing-a-high-school-in-nyc.'.$request->ext);
 
         if (! \File::exists($filepath))
             abort(404);
